@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: slateblue;
+}
+.container{
+    width: 90%;
+    background: peachpuff;
+    color: black;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper input{
+    font-size: 23px;
+    width: 60%;
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: 1px solid lightblue;
+}
+.wrapper button{
+    width: 30%;
+    background: salmon;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+.container p{
+    line-height: 35px;
+    text-align: justify;
+    margin-top: 30px;
+}
+mark{
+    background-color: palegreen;
+}
